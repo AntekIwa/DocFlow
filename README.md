@@ -1,17 +1,17 @@
-# Sortify AI - Local Intelligent File Organizer
+# DocFlow - Local Intelligent File Organizer
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat&logo=python&logoColor=white)
 ![AI](https://img.shields.io/badge/AI-Ollama%20%7C%20Llama3-black?style=flat)
 ![GUI](https://img.shields.io/badge/GUI-CustomTkinter-blue?style=flat)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
-**Sortify AI** is a privacy-first desktop application that automates file organization using a hybrid architecture of Static Rules and Local LLM (Llama 3).
+**DocFlow** is a privacy-first desktop application that automates file organization using a hybrid architecture of Static Rules and Local LLM (Llama 3).
 
 ![App Screenshot](demo.png)
 
 ## About The Project
 
-Sortify AI solves the problem of digital clutter without compromising data privacy. Unlike cloud-based solutions, this tool processes sensitive documents (contracts, CVs, financial reports) **locally** on your machine.
+DocFlow solves the problem of digital clutter without compromising data privacy. Unlike cloud-based solutions, this tool processes sensitive documents (contracts, CVs, financial reports) **locally** on your machine.
 
 It utilizes a **Waterfall Filtering System** to optimize performance:
 1.  **Binary & Archives:** Instantly sorted by extension (O(1) complexity).
@@ -49,14 +49,14 @@ This application requires **Ollama** installed and running locally.
 
 ### Option A: Run the Executable
 1.  Go to the **[Releases](../../releases)** section.
-2.  Download the latest `SortifyAI.exe`.
+2.  Download the latest `DocFlow.exe`.
 3.  Run the application.
 
 ### Option B: Run from Source
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/Sortify-AI.git](https://github.com/YOUR_USERNAME/Sortify-AI.git)
-    cd Sortify-AI
+    git clone [https://github.com/YOUR_USERNAME/DocFlow.git](https://github.com/YOUR_USERNAME/DocFlow.git)
+    cd DocFlow
     ```
 2.  Install dependencies:
     ```bash
